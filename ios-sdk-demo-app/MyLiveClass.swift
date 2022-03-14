@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct MyLiveClass:View{
-    let customLink = "https://video.teachmint.com/videoroom/evaas::test-room-dev-3/teacher/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb29tX2lkIjoiZXZhYXM6OnRlc3Qtcm9vbS1kZXYtMyIsInVpZCI6InRlYWNoZXIiLCJ1bmFtZSI6InRlYWNoZXIiLCJ1dHlwZSI6MSwiZXhwIjoxNjQ2NDI1NTcxfQ.Sw2U3CHkK5JdEFpFOzUazu5MKwmjQuMg0_J3mS0EbzM"
+    let customLink = "https://video.teachmint.com/videoroom/teachmint::949529208/6194d019deddfeef8eebdc05/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb29tX2lkIjoidGVhY2htaW50Ojo5NDk1MjkyMDgiLCJ1aWQiOiI2MTk0ZDAxOWRlZGRmZWVmOGVlYmRjMDUiLCJ1bmFtZSI6InJhbmRvbWRzcWVxcnFlcnF3cnF3cnF3cnEiLCJ1dHlwZSI6MSwiZXhwIjoxNjQ3MzA5MzY0fQ.IsmKV4gLsPsvcgGykBcs96tYQA7fiHVbLvYqwF7ShlE"
     @State var input = ""
     @State var isLinkClicked : Bool = false
     @State var destination : AnyView? = nil

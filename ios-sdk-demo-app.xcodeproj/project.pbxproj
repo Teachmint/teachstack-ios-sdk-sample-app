@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21077A3927DF8757006EBF1E /* TeachmintSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */; };
+		21077A3A27DF875B006EBF1E /* TeachmintSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */; };
+		21077A3B27DF875B006EBF1E /* TeachmintSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		219DCB5027D0F45800A8F45A /* ios_sdk_demo_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB4F27D0F45800A8F45A /* ios_sdk_demo_appApp.swift */; };
 		219DCB5227D0F45800A8F45A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB5127D0F45800A8F45A /* ContentView.swift */; };
 		219DCB5427D0F45D00A8F45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219DCB5327D0F45D00A8F45A /* Assets.xcassets */; };
@@ -22,9 +25,6 @@
 		219DCB9527D0F76400A8F45A /* WebRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 219DCB8A27D0F57600A8F45A /* WebRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		219DCB9727D0F91F00A8F45A /* MyLiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB9627D0F91F00A8F45A /* MyLiveClass.swift */; };
 		219DCB9927D0FABD00A8F45A /* SdkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB9827D0FABD00A8F45A /* SdkView.swift */; };
-		219DCBDB27D21E4F00A8F45A /* TeachmintSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219DCBD927D21E4F00A8F45A /* TeachmintSdk.xcframework */; };
-		219DCBDC27D21E5800A8F45A /* TeachmintSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219DCBD927D21E4F00A8F45A /* TeachmintSdk.xcframework */; };
-		219DCBDD27D21E5800A8F45A /* TeachmintSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 219DCBD927D21E4F00A8F45A /* TeachmintSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				219DCBDD27D21E5800A8F45A /* TeachmintSdk.xcframework in Embed Frameworks */,
+				21077A3B27DF875B006EBF1E /* TeachmintSdk.xcframework in Embed Frameworks */,
 				219DCB9527D0F76400A8F45A /* WebRTC.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -72,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TeachmintSdk.xcframework; sourceTree = "<group>"; };
 		219DCB4C27D0F45800A8F45A /* ios-sdk-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sdk-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		219DCB4F27D0F45800A8F45A /* ios_sdk_demo_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sdk_demo_appApp.swift; sourceTree = "<group>"; };
 		219DCB5127D0F45800A8F45A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,7 +91,6 @@
 		219DCB9327D0F6A500A8F45A /* screen-share-demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "screen-share-demo.entitlements"; sourceTree = "<group>"; };
 		219DCB9627D0F91F00A8F45A /* MyLiveClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveClass.swift; sourceTree = "<group>"; };
 		219DCB9827D0FABD00A8F45A /* SdkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkView.swift; sourceTree = "<group>"; };
-		219DCBD927D21E4F00A8F45A /* TeachmintSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TeachmintSdk.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219DCBDC27D21E5800A8F45A /* TeachmintSdk.xcframework in Frameworks */,
+				21077A3A27DF875B006EBF1E /* TeachmintSdk.xcframework in Frameworks */,
 				219DCB9427D0F76400A8F45A /* WebRTC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219DCBDB27D21E4F00A8F45A /* TeachmintSdk.xcframework in Frameworks */,
+				21077A3927DF8757006EBF1E /* TeachmintSdk.xcframework in Frameworks */,
 				219DCB6427D0F4A800A8F45A /* ReplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +170,7 @@
 		219DCB6227D0F4A800A8F45A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				219DCBD927D21E4F00A8F45A /* TeachmintSdk.xcframework */,
+				21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */,
 				219DCB8A27D0F57600A8F45A /* WebRTC.xcframework */,
 				219DCB6327D0F4A800A8F45A /* ReplayKit.framework */,
 				219DCB6F27D0F4A800A8F45A /* UIKit.framework */,
