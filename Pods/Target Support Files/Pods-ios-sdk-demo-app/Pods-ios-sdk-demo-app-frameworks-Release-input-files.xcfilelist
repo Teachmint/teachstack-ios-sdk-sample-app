@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ios-sdk-demo-app/Pods-ios-sdk-demo-app-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/TeachmintSdk/TeachmintSdk.framework/TeachmintSdk
+${PODS_XCFRAMEWORKS_BUILD_DIR}/TeachmintSdk/WebRTC.framework/WebRTC
