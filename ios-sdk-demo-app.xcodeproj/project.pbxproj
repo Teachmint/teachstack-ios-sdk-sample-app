@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21077A3927DF8757006EBF1E /* TeachmintSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */; };
-		21077A3A27DF875B006EBF1E /* TeachmintSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */; };
-		21077A3B27DF875B006EBF1E /* TeachmintSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0B771F6919CB7E00BA7E9558 /* libPods-ios-sdk-demo-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5F6D4F2A1700859FB21922 /* libPods-ios-sdk-demo-app.a */; };
 		219DCB5027D0F45800A8F45A /* ios_sdk_demo_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB4F27D0F45800A8F45A /* ios_sdk_demo_appApp.swift */; };
 		219DCB5227D0F45800A8F45A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB5127D0F45800A8F45A /* ContentView.swift */; };
 		219DCB5427D0F45D00A8F45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219DCB5327D0F45D00A8F45A /* Assets.xcassets */; };
@@ -21,10 +19,9 @@
 		219DCB7327D0F4A800A8F45A /* BroadcastSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB7227D0F4A800A8F45A /* BroadcastSetupViewController.swift */; };
 		219DCB7727D0F4A800A8F45A /* screen-share-demoSetupUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 219DCB6D27D0F4A800A8F45A /* screen-share-demoSetupUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		219DCB7A27D0F4A800A8F45A /* screen-share-demo.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 219DCB6127D0F4A800A8F45A /* screen-share-demo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		219DCB9427D0F76400A8F45A /* WebRTC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219DCB8A27D0F57600A8F45A /* WebRTC.xcframework */; };
-		219DCB9527D0F76400A8F45A /* WebRTC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 219DCB8A27D0F57600A8F45A /* WebRTC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		219DCB9727D0F91F00A8F45A /* MyLiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB9627D0F91F00A8F45A /* MyLiveClass.swift */; };
 		219DCB9927D0FABD00A8F45A /* SdkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DCB9827D0FABD00A8F45A /* SdkView.swift */; };
+		679CE6C4762D2317612E9EAC /* libPods-screen-share-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FC18D22E333060DB4AC454 /* libPods-screen-share-demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +60,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				21077A3B27DF875B006EBF1E /* TeachmintSdk.xcframework in Embed Frameworks */,
-				219DCB9527D0F76400A8F45A /* WebRTC.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TeachmintSdk.xcframework; sourceTree = "<group>"; };
+		0429B2D4C252B39DBA991209 /* Pods-screen-share-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screen-share-demo.debug.xcconfig"; path = "Target Support Files/Pods-screen-share-demo/Pods-screen-share-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		219DCB4C27D0F45800A8F45A /* ios-sdk-demo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-sdk-demo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		219DCB4F27D0F45800A8F45A /* ios_sdk_demo_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_sdk_demo_appApp.swift; sourceTree = "<group>"; };
 		219DCB5127D0F45800A8F45A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,11 +81,15 @@
 		219DCB6F27D0F4A800A8F45A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		219DCB7227D0F4A800A8F45A /* BroadcastSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastSetupViewController.swift; sourceTree = "<group>"; };
 		219DCB7427D0F4A800A8F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		219DCB8A27D0F57600A8F45A /* WebRTC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = WebRTC.xcframework; sourceTree = "<group>"; };
 		219DCB9227D0F68B00A8F45A /* ios-sdk-demo-app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ios-sdk-demo-app.entitlements"; sourceTree = "<group>"; };
 		219DCB9327D0F6A500A8F45A /* screen-share-demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "screen-share-demo.entitlements"; sourceTree = "<group>"; };
 		219DCB9627D0F91F00A8F45A /* MyLiveClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveClass.swift; sourceTree = "<group>"; };
 		219DCB9827D0FABD00A8F45A /* SdkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkView.swift; sourceTree = "<group>"; };
+		31FC18D22E333060DB4AC454 /* libPods-screen-share-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-screen-share-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5F6D4F2A1700859FB21922 /* libPods-ios-sdk-demo-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-sdk-demo-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796260613660598420FB0BA1 /* Pods-ios-sdk-demo-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-demo-app.release.xcconfig"; path = "Target Support Files/Pods-ios-sdk-demo-app/Pods-ios-sdk-demo-app.release.xcconfig"; sourceTree = "<group>"; };
+		D9F7637FF8E1F0704F43D494 /* Pods-screen-share-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screen-share-demo.release.xcconfig"; path = "Target Support Files/Pods-screen-share-demo/Pods-screen-share-demo.release.xcconfig"; sourceTree = "<group>"; };
+		FEE71DC7B8FCFFF7F89C839D /* Pods-ios-sdk-demo-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-sdk-demo-app.debug.xcconfig"; path = "Target Support Files/Pods-ios-sdk-demo-app/Pods-ios-sdk-demo-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21077A3A27DF875B006EBF1E /* TeachmintSdk.xcframework in Frameworks */,
-				219DCB9427D0F76400A8F45A /* WebRTC.xcframework in Frameworks */,
+				0B771F6919CB7E00BA7E9558 /* libPods-ios-sdk-demo-app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +105,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21077A3927DF8757006EBF1E /* TeachmintSdk.xcframework in Frameworks */,
 				219DCB6427D0F4A800A8F45A /* ReplayKit.framework in Frameworks */,
+				679CE6C4762D2317612E9EAC /* libPods-screen-share-demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +130,7 @@
 				219DCB7127D0F4A800A8F45A /* screen-share-demoSetupUI */,
 				219DCB6227D0F4A800A8F45A /* Frameworks */,
 				219DCB4D27D0F45800A8F45A /* Products */,
+				7C5C552F706E5B1E9D61BD94 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,10 +169,10 @@
 		219DCB6227D0F4A800A8F45A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21077A3727DF8757006EBF1E /* TeachmintSdk.xcframework */,
-				219DCB8A27D0F57600A8F45A /* WebRTC.xcframework */,
 				219DCB6327D0F4A800A8F45A /* ReplayKit.framework */,
 				219DCB6F27D0F4A800A8F45A /* UIKit.framework */,
+				5A5F6D4F2A1700859FB21922 /* libPods-ios-sdk-demo-app.a */,
+				31FC18D22E333060DB4AC454 /* libPods-screen-share-demo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,6 +196,17 @@
 			path = "screen-share-demoSetupUI";
 			sourceTree = "<group>";
 		};
+		7C5C552F706E5B1E9D61BD94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEE71DC7B8FCFFF7F89C839D /* Pods-ios-sdk-demo-app.debug.xcconfig */,
+				796260613660598420FB0BA1 /* Pods-ios-sdk-demo-app.release.xcconfig */,
+				0429B2D4C252B39DBA991209 /* Pods-screen-share-demo.debug.xcconfig */,
+				D9F7637FF8E1F0704F43D494 /* Pods-screen-share-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,11 +214,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 219DCB5A27D0F45D00A8F45A /* Build configuration list for PBXNativeTarget "ios-sdk-demo-app" */;
 			buildPhases = (
+				5A22109905411DF90BFD07D6 /* [CP] Check Pods Manifest.lock */,
 				219DCB4827D0F45800A8F45A /* Sources */,
 				219DCB4927D0F45800A8F45A /* Frameworks */,
 				219DCB4A27D0F45800A8F45A /* Resources */,
 				219DCB8127D0F4A800A8F45A /* Embed App Extensions */,
 				219DCB8E27D0F57900A8F45A /* Embed Frameworks */,
+				2EB5DEFDBF896EF5FB29F503 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 219DCB7E27D0F4A800A8F45A /* Build configuration list for PBXNativeTarget "screen-share-demo" */;
 			buildPhases = (
+				B14EAFF274D3DEC21D7D92D3 /* [CP] Check Pods Manifest.lock */,
 				219DCB5D27D0F4A800A8F45A /* Sources */,
 				219DCB5E27D0F4A800A8F45A /* Frameworks */,
 				219DCB5F27D0F4A800A8F45A /* Resources */,
@@ -321,6 +334,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EB5DEFDBF896EF5FB29F503 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-demo-app/Pods-ios-sdk-demo-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-demo-app/Pods-ios-sdk-demo-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-sdk-demo-app/Pods-ios-sdk-demo-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A22109905411DF90BFD07D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-sdk-demo-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B14EAFF274D3DEC21D7D92D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-screen-share-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		219DCB4827D0F45800A8F45A /* Sources */ = {
@@ -484,6 +561,7 @@
 		};
 		219DCB5B27D0F45D00A8F45A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE71DC7B8FCFFF7F89C839D /* Pods-ios-sdk-demo-app.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -521,6 +599,7 @@
 		};
 		219DCB5C27D0F45D00A8F45A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796260613660598420FB0BA1 /* Pods-ios-sdk-demo-app.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -610,6 +689,7 @@
 		};
 		219DCB7F27D0F4A800A8F45A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0429B2D4C252B39DBA991209 /* Pods-screen-share-demo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "screen-share-demo/screen-share-demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -638,6 +718,7 @@
 		};
 		219DCB8027D0F4A800A8F45A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F7637FF8E1F0704F43D494 /* Pods-screen-share-demo.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "screen-share-demo/screen-share-demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;

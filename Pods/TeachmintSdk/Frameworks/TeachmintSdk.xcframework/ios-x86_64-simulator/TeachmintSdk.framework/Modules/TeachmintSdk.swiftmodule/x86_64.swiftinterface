@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TeachmintSdk
+import AVFoundation
+import CallKit
+import Combine
+import CoreMedia
+import Foundation
+import MobileCoreServices
+import Network
+import PDFKit
+import ReplayKit
+import Swift
+import SwiftUI
+@_exported import TeachmintSdk
+import UIKit
+import UniformTypeIdentifiers
+import VideoToolbox
+import WebRTC
+import _AVKit_SwiftUI
+import _Concurrency
+public protocol TeachmintRoomViewDelegate {
+  func onMeetingEnded(reason: Swift.String, recording: Swift.Bool, study_material: Swift.Bool, session_id: Swift.String?)
+  func trackEvent(eventName: Swift.String, eventData: [Swift.String : Swift.String])
+}
+final public class screenShareBuilder {
+  public init(suiteName: Swift.String)
+  final public func startShare(_ instance: ReplayKit.RPBroadcastSampleHandler)
+  final public func stopShare()
+  final public func processBuffer(_ sampleBuffer: CoreMedia.CMSampleBuffer, with sampleBufferType: ReplayKit.RPSampleBufferType)
+  @objc deinit
+}
+public struct TMEvaasBuilder : SwiftUI.View {
+  public init(delegate: TeachmintSdk.TeachmintRoomViewDelegate?, suiteName: Swift.String?, url: Swift.String, language: Swift.String, host: Swift.String)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12TeachmintSdk14TMEvaasBuilderV4bodyQrvp", 0) __
+}

@@ -18,7 +18,7 @@ struct SdkView: View, TeachmintRoomViewDelegate{
     }
     
     var body:some View{
-        EvaasMeetingSwiftview(delegate: self, suiteName: "group.teachmint.ios.app.appgroup",url:self.url, language: "en")
+        TMEvaasBuilder(delegate: self, suiteName: "group.teachmint.ios.app.appgroup", url: self.url, language: "en", host: "")
     }
     
     func onMeetingEnded(reason: String, recording:Bool,study_material:Bool,session_id:String?) {
