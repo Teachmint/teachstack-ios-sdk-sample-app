@@ -1,6 +1,0 @@
-module Pods_screen_share_demo {
-  umbrella header "Pods-screen-share-demo-umbrella.h"
-
-  export *
-  module * { export * }
-}
